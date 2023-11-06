@@ -1,0 +1,101 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+body {
+    background-color: #FFF;
+}
+
+.logo{
+    display: flex;
+    margin-left: 2em;
+    width: 2.5em;
+    height: 4.5em;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 30px;
+} 
+
+/*Modal (Fondo) */
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; /* Se úbica arriba */
+    padding-top: 100px; /* locación de la caja */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(71, 67, 67); /* Trasfondo color */
+    background-color: rgba(0,0,0,0.4); /* opacidad */
+}
+
+/* Modal Contenido */
+.modal-content {
+    background-color: #fefefe;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* Boton de Cierre */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.input-texto {
+    margin-top: 90px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+
+}
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.desencriptar {
+    margin-left: 30px;
+}
+.pegar {
+    margin-left: 30px;
+}
+
+.informacion {
+    font-size: 15px;
+}
