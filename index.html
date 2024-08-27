@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Encriptador</title>
 </head>
 <body>
@@ -16,9 +17,9 @@
     </header>
     <main>
         <section>
-            <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aquí"></textarea>
             <div id="div-desaparece">
-                <h6 class="informacion">No ingresar con acentos</h6>
+                <h6 class="informacion"><i class="fa fa-exclamation fa-lg"></i> No ingresar con acentos</h6>
             </div>
             <div class="botones">
                 <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
@@ -29,7 +30,7 @@
 
         <div id="miModal" class="modal">
             <div class="modal-content">
-                <span class="cerrar">&times;</span>
+                <span class="cerrar">×</span>
                 <p id="mensaje">Favor ingrese algún texto para codificar</p>
             </div>        
         </div>
