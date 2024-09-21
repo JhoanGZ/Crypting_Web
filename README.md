@@ -1,7 +1,7 @@
 # Crypting_Web
 
 ## Description
-**Crypting_Web** is an educational project focused on demonstrating the manipulation of matrices in JavaScript while adhering to the **DRY** (Don't Repeat Yourself) and **KISS** (Keep It Simple, Stupid) principles. This project is designed to provide a simple yet clear example of cryptographic techniques using matrices.
+Project focused on demonstrating the manipulation of matrices in JavaScript while adhering to the **DRY** (Don't Repeat Yourself) and **KISS** (Keep It Simple, Stupid) principles. This project is designed to provide a simple yet clear example of cryptographic techniques using matrices.
 
 ## Features
 - Matrix manipulation for educational purposes.
