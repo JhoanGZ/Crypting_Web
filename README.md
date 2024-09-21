@@ -25,9 +25,9 @@ To run this project locally, you only need a modern web browser (e.g., Chrome, F
    ```
 
 2. Navigate to the project folder:
-```
-cd Crypting_Web
-```
+   ```
+   cd Crypting_Web
+   ```
 3. Open the index.html file in your web browser to run the project.
 
 ### Usage
